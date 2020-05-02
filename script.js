@@ -35,6 +35,9 @@ $(document).ready(function () {
       console.log(rand_num);
       $("#user_name").prop("disabled", false);
       $("#you_num").prop("disabled", false);
+      $("#rez .hint").empty();
+      $("#rez .sub-hint").empty();
+      $(".rating-text").empty();
       onReload = false;
       return;
     }
